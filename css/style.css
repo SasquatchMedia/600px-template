@@ -1,0 +1,305 @@
+.container {
+	width: 600px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.button {
+	width: 160px;
+	height: 40px;
+	font-size: 12px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+/* Header */
+
+header {
+	width: 100%;
+	height: 60px;
+	background-color: #87509c;
+	/* padding: 20px 0; */
+}
+
+#logo {
+	width: 140px;
+	height: 60px;
+	float: left;
+}
+
+#logo img {
+	display: block;
+	/* margin: 0 20px; */
+}
+
+nav {
+	float: right;
+	width: 460px;
+	height: 60px;
+}
+
+nav ul {
+	padding: 0;
+	float: right;
+	margin: 0;
+}
+
+nav ul li {
+	/* display: inline-block; */
+	display: none;
+	/* margin: 10px 0; */
+	/* padding: 10px 20px; */
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: all .3s ease;
+}
+
+nav ul li:hover {
+	transform: translateY(-10%);
+}
+
+nav ul li.active {
+	background-color: #643a79;
+	border-radius: 5px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Hero Section */
+
+section.hero {
+	width: 100%;
+	height: 180px;
+	background-color: #87509c;
+	padding: 20px 0;
+}
+
+.hero-content {
+	width: 100%;
+	text-align: center;
+}
+
+section.hero h1 {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section.hero .button {
+	background-color: #eb7d4b;
+	color: white;
+	margin: 20px auto;
+	transition: all .3s ease;
+}
+
+section.hero .button:hover {
+	transform: translateY(-10%);
+}
+
+/* Services Section */
+
+section.services {
+	width: 100%;
+	height: 410px;
+	background-color: #17c2a4;
+	padding: 20px 0;
+}
+
+.services-content {
+	width: 100%;
+	text-align: center;
+}
+
+.services-title-box {
+	margin: 0 auto;
+}
+
+.services-title-box h2 {
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.services-title-box .line {
+	width: 80px;
+	height: 4px;
+	background-color: rgba(0, 0, 0, 0.15);
+	margin: 0 auto;
+	border-radius: 2px;
+}
+
+.services-title-box p {
+	font-size: 15px;
+	margin: 0 auto;
+	width: 420px;
+	padding: 20px;
+}
+
+.blurb-row {
+	margin: 0 auto;
+}
+
+.blurb {
+	width: 30%;
+	display: inline-table;
+	text-align: center;
+}
+
+.blurb img {
+	padding: 20px;
+	max-height: 75px;
+}
+
+.blurb h3 {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.blurb p {
+	font-size: 13px;
+	max-width: 200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Contact Section */
+
+section.contact {
+	width: 100%;
+	height: 540px;
+	background-color: #3c5499;
+	padding: 20px 0;
+}
+
+.contact-content {
+	width: 100%;
+	text-align: center;
+}
+
+.contact-title-box {
+	margin: 0 auto;
+}
+
+.contact-title-box h2 {
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.contact-title-box .line {
+	width: 80px;
+	height: 4px;
+	background-color: rgba(0, 0, 0, 0.15);
+	margin: 0 auto;
+	border-radius: 2px;
+}
+
+.contact-title-box p {
+	font-size: 11px;
+	margin: 0 auto;
+	width: 420px;
+	padding: 20px;
+}
+
+#contact-form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+input[type="text"], input[type="email"], textarea {
+	color: white;
+	background-color: #273a71;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 11px;
+	margin: 20px;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
+	color: white;
+}
+
+input[type="text"], input[type="email"] {
+	width: 50%;
+	height: 38px;
+}
+
+textarea {
+	height: 160px;
+	width: 100%;
+	padding: 20px;
+}
+
+.form-row {
+	display: flex;
+}
+
+input[type="submit"] {
+	background-color: #30bae7;
+	color: white;
+	margin: 20px auto;
+	transition: all .3s ease;
+}
+
+input[type="submit"]:hover {
+	transform: translateY(-10%);
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	height: 35px;
+	background-color: #87509c;
+	padding: 20px 0;
+	text-align: center;
+}
+
+footer ul {
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 13px;
+	transition: all .3s ease;
+}
+
+footer ul li:hover {
+	transform: translateY(-10%);
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: white;
+}
